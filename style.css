@@ -80,7 +80,6 @@ header {
     display: flex;
     flex-direction: row;
     column-gap: 26px;
-    /* align-items: flex-end; */
 }
 
 .right {
@@ -109,7 +108,6 @@ header {
 
 .slider {
     background: var(--calc-bgd);
-    /* width: 100%; */
     border-radius: 13px;
     padding: 5px;
     display: flex;
@@ -183,7 +181,6 @@ button {
     box-shadow: var(--white-box-shadow);
     border: 0;
     background: var(--button-bgd-color);
-    /* text-align: center; */
 }
 
 .seven {
@@ -355,22 +352,7 @@ button:hover {
     --red-color-circle: #00DED0;
 }
 
-/* .circle1-hover::hover {
-    color: black;
-    cursor: pointer;
-}
-
-.circle2-hover {
-    background: black;
-    cursor: pointer;
-}
-
-.circle3-hover {
-    background: black;
-    cursor: pointer;
-} */
-
-.circle-1:hover {
+.theme-1 .circle-1:hover {
     background: var(--red-hover-color);
     cursor: pointer;
 }
@@ -381,7 +363,7 @@ button:hover {
 }
 
 .theme-3 .circle-3:hover {
-    background: var(--red-hover-color);
+    background-color: var(--red-hover-color);
     cursor: pointer;
 }
 
@@ -424,15 +406,15 @@ button:hover {
 
 @media screen and (max-width:350px) {
 
-  .container {
-      max-width: 300px;
-      margin: 20px;
+    .container {
+        max-width: 300px;
+        margin: 20px;
   }
 
-  .calc {
-    padding: 15px;
-    row-gap: 10px;
-    column-gap: 10px;
+    .calc {
+        padding: 15px;
+        row-gap: 10px;
+        column-gap: 10px;
 }
 
 }
